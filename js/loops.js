@@ -20,3 +20,7 @@ while (evenNumbers < 25){
 //     }
 //     num++;
 // }
+
+// // TODO: loop through numbers 1 - 40. Print "marco" if it's divisible by 3. Print "polo" if it's divisible by 5.
+//  If it's neither print "I'm not playing"
+//  Print "marco polo" if it's divisible by 3 and 5.
