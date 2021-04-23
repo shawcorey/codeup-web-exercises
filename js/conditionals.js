@@ -25,16 +25,16 @@ function analyzeColor (str) {
 
     if (str === "blue") {
         console.log("the sky is blue");
-    }else if (str === "red") {
+    } else if (str === "red") {
         console.log("Cherries are red");
-    }else if (str === "cyan") {
+    } else if (str === "cyan") {
         console.log("I don't know anything about cyan");
-    }else if (str === "yellow") {
+    } else if (str === "yellow") {
         console.log("Bananas are yellow");
-    }else if (str === "green")
+    } else if (str === "green") {
 
+    }
 }
-
 // Don't change the next two lines!
 // These lines create two variables for you:
 // - `colors`: a list of the colors of the rainbow
