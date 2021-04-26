@@ -25,9 +25,20 @@
 // }
 
 //------------------------------------------------------- Exercise 4
-
+for (var x = 1; x <= 1; x++){
+    for (var j = 9; j >= x; j--) {
+        console.log(x + " ");
+    }
+    console.log(" ");
+    for (var k = 9; k <= x; k--){
+        console.log("");
+    }
+    // repeat function
 //------------------------------------------------------- Exercise 5
 
-for (var x = 100; x >= 5; x -= 5 ){
-    console.log(x)
+// for (var x = 100; x >= 5; x -= 5 ){
+//     console.log(x)
 }
+
+//------------------------------------------------------ Exercise 6
+
