@@ -6,3 +6,12 @@
 
 var myCharacteristerics = ["Corey", "Veteran", "Esport Player"];
 console.log(myCharacteristerics[3]);
+
+
+// TODO: MINI-EXERCISE
+//  -> Create an array with at least 5 elements, describing whatever you'd like!
+//  -> Create a loop which will log each element to the console
+//  -> Wrap that loop in a function which has an array parameter
+//  -> Call the function and pass in your array as the argument
+//  -> DID YOU KNOW: You can add different data types to an array??
+//      -> Try adding strings, numbers, or booleans as elementsgit
