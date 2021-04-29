@@ -15,3 +15,5 @@ console.log(myCharacteristerics[3]);
 //  -> Call the function and pass in your array as the argument
 //  -> DID YOU KNOW: You can add different data types to an array??
 //      -> Try adding strings, numbers, or booleans as elementsgit
+
+var animals = ['Pig', 'Lion', 'Wolf', 'Tiger', 'Turtle'];
