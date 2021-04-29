@@ -17,3 +17,4 @@ console.log(myCharacteristerics[3]);
 //      -> Try adding strings, numbers, or booleans as elementsgit
 
 var animals = ['Pig', 'Lion', 'Wolf', 'Tiger', 'Turtle'];
+
