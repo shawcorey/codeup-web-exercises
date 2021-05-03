@@ -5,18 +5,17 @@
 // hint: start by defining the correct password and don't forget to link your html file
 
 
-
-
 // TODO: Loop through a set of numbers (0-30), if the number you're currently at is even, add 2 to it. If it's an
 //  odd number, print "odd"
 // // HINT: remember the remainder operator (modulo)
 
-for (var x = 0; x < 30; x++){
-    if(x % 2 === 0){
+for (var x = 0; x < 30; x++) {
+    if (x % 2 === 0) {
         console.log(x + 2);
-    }else{
+    } else {
         console.log("odd is: " + x);
-    }console.log('test')
+    }
+    console.log('test')
 }
 
 
