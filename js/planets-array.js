@@ -11,7 +11,7 @@
      * console.log planetsArray to check your work
      */
     var planetString = ["Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune"];
-    var planetsArray;
+    var planetsArray = planetsString.split('|');
     console.log(planetsArray);
 
     // console.log(planetsArray);
