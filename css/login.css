@@ -59,23 +59,30 @@ fieldset {
 }
 
 .btn {
-    padding: 8px
+    padding-top: 8px;
+    padding-bottom: 8px;
     /* There must be a separation of 8px between the text and the border of this element */
     /* The text color of this element should be white and bold */
+    color: #FFFFFF
+    font-weight: bold;
     /* The border of this element should be 1px, and its color should be light grey */
+    border: 1px solid lightgrey;
     background-color: #0fb784;
 }
 
 .form-control {
-    margin: auto;
     /* There must be 4px on top of the text and below the text of an input with this class */
     /* It should have a separation of .5em from elements on top of it and below it */
+    padding-bottom: 4px;
+    padding-top: 4px;
+    margin-bottom: 0.5em;
+    margin-top: 0.5;
 
     /* You'll need to use the `calc` function to make the width of this element match the width of the button */
     /* See the example at: https://developer.mozilla.org/en-US/docs/Web/CSS/calc */
     /* HINT: Calculate based on the padding of the `.btn` class */
     /* HINT: Examples are available at: https://glitch.com/~input-button-width */
-    width: 90%;
+    width: calc(100%-(15px/2)) 90%;
 }
 
 
