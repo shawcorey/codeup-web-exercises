@@ -10,6 +10,13 @@
 // }
 // showMultiplicationChart(7)
 
+function showMultiplicationChart (input) {
+
+    for( var x = 1; x <= 10; x++){
+        console.log(input + " x " + x + " = " +(input * x));
+    }
+}
+
 
 //-------------------------------------------------------
 
