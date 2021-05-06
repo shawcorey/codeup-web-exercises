@@ -26,7 +26,7 @@
      * list. You will need an opening AND closing <ul> tags around the entire
      * string, and <li> tags around each planet.
      */
-    var planetsString = "</br> Mercury <br> <br>Venus</br> <br>|Earth<br> <br>Mars</br> <br>Jupiter</br> <br>Saturn</br>Saturn<br> <br>Uranus</br> <br>Neptune</br>";
+    var planetsString = "</br> Mercury <br> <br>Venus</br> <br>Earth<br> <br>Mars</br> <br>Jupiter</br> <br>Saturn</br>Saturn<br> <br>Uranus</br> <br>Neptune</br>";
     console.log(planetsString);
 
 })();

@@ -15,7 +15,8 @@ header {
     padding          : 2%;
     width            : 100%;
     height: 22px;
-    position: fixed;
+    position: sticky;
+    top: 0;
 }
 
 #nav-anchor-container {
@@ -41,7 +42,6 @@ header {
 */
 main {
     height: 500px;
-    position: relative;
 
 }
 
