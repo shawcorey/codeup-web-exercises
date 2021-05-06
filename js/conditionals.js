@@ -48,6 +48,7 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * You should see a different message every time you refresh the page
  */
 
+
 /**
  * TODO:
  * Refactor your above function to use a switch-case statement

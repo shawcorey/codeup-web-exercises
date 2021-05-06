@@ -1,5 +1,4 @@
-(function (){
-    "use strict";
+"use strict";
     //
     // function isOdd(number) {
     //
@@ -68,4 +67,4 @@ function divide(x,y) {
     console.log(input "Corey"));
 
 
-})()
+}))
