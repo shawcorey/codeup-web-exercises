@@ -11,7 +11,7 @@
      *  > console.log(person.firstName) // "Rick"
      *  > console.log(person.lastName) // "Sanchez"
      */
-
+      var person = new Object();
     /**
      * TODO:
      * Add a sayHello method to the person object that returns a greeting using
