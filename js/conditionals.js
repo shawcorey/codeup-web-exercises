@@ -21,20 +21,20 @@
  * Test your function by passing various string literals to it and
  * console.logging the function's return value
  */
-function analyzeColor (str) {
-
-    if (str === "blue") {
-        console.log("the sky is blue");
-    } else if (str === "red") {
-        console.log("Cherries are red");
-    } else if (str === "cyan") {
-        console.log("I don't know anything about cyan");
-    } else if (str === "yellow") {
-        console.log("Bananas are yellow");
-    } else if (str === "green") {
-
-    }
-}
+// function analyzeColor (str) {
+//
+//     if (str === "blue") {
+//         console.log("the sky is blue");
+//     } else if (str === "red") {
+//         console.log("Cherries are red");
+//     } else if (str === "cyan") {
+//         console.log("I don't know anything about cyan");
+//     } else if (str === "yellow") {
+//         console.log("Bananas are yellow");
+//     } else if (str === "green") {
+//
+//     }
+// }
 // Don't change the next two lines!
 // These lines create two variables for you:
 // - `colors`: a list of the colors of the rainbow
@@ -47,19 +47,51 @@ var randomColor = colors[Math.floor(Math.random() * colors.length)];
  * Pass the `randomColor` variable to your function and console.log the results.
  * You should see a different message every time you refresh the page
  */
-
+console.log(randomColor)
 
 /**
  * TODO:
  * Refactor your above function to use a switch-case statement
  */
 
+function analyzeColor (color) {
+    switch (color) {
+        case "blue":
+            alert("the sky is blue");
+            break;
+        case "red":
+            alert("Cherries are red");
+            break;
+        case "cyan:":
+            alert("I dont know anything about Cyan")
+            break
+        case "yellow":
+            alert("Bananas are yellow")
+            break;
+        case "green":
+            alert("This is green")
+            break;
+        default:
+            alert("What is this color");
+            break;
+
+    }
+}
+//what is my switch statement doing?
 /**
  * TODO:
  * Prompt the user for a color when the page loads, and pass the input from the
  * user to your `analyzeColor` function. Alert the return value from your
  * function to show it to the user.
  */
+
+var favoriteColor = prompt ('What is your favorite color');
+    analyzeColor(favoriteColor);
+    alert(favoriteColor);
+
+
+
+
 
 /* ########################################################################## */
 
