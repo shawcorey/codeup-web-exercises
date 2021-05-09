@@ -85,9 +85,9 @@ function analyzeColor (color) {
  * function to show it to the user.
  */
 
-var favoriteColor = prompt ('What is your favorite color');
-    analyzeColor(favoriteColor);
-    alert(favoriteColor);
+// var favoriteColor = prompt ('What is your favorite color');
+//     analyzeColor(favoriteColor);
+//     alert(favoriteColor);
 
 
 
@@ -114,6 +114,35 @@ var favoriteColor = prompt ('What is your favorite color');
  * Test your function by passing it various values and checking for the expected
  * return value.
  */
+function calculateTotal (luckyNumber,totalAmount) {
+    luckyNumber = parseInt(luckyNumber);
+    if (luckyNumber === 0) {
+        // return
+        return totalAmount;
+    }
+    else if (luckyNumber === 1) {
+        return totalAmount - (.10 * totalAmount);
+    }
+    else if (luckyNumber === 2) {
+        return totalAmount - (.25 * totalAmount);
+
+    }
+    else if (luckyNumber === 3) {
+        return totalAmount - (.35 * totalAmount)
+    }
+    else if (luckyNumber === 4) {
+        return totalAmount - (.50 * totalAmount);
+    }
+    else {
+        return totalAmount - totalAmount;
+    }
+
+
+
+//   2). If Else Statement
+}
+console.log(calculateTotal("1",25.00));
+
 
 /**
  * TODO:
@@ -123,9 +152,13 @@ var favoriteColor = prompt ('What is your favorite color');
  * price before the discount was, and what their price after the discount is.
  */
 // Generate a random number between 0 and 6
-// var luckyNumber = Math.floor(Math.random() * 6);
+var luckyNumber = Math.floor(Math.random() * 6);
 
-/**
+var totalBill =  prompt('How much was your bill');
+    console.log(calculateTotal(luckyNumber, totalBill));
+    alert(calculateTotal(5,7));
+
+    /**
  * TODO:
  * Write some JavaScript that uses a `confirm` dialog to ask the user if they
  * would like to enter a number. If they click 'Ok', prompt the user for a
@@ -141,6 +174,55 @@ var favoriteColor = prompt ('What is your favorite color');
  * Can you refactor your code to use functions?
  * HINT: The way we prompt for a value could be improved
  */
+function enterNumber() {
+    // Confirm if they want to enter a number
+    //     var clickOK = confirm('Do you want to enter a number');
+    // If they click 'Ok', prompt the user for a number
+    // Then use three separate alerts
+    //    is the number even or odd?
+    //    number plus 100 is?
+    //    is it negative or positive?
+
+        var clickOK = confirm('Do you want to enter a number');
+        console.log(typeof clickOK)
+
+        if (clickOK) {
+            //Prompt the user for a number
+           var typeNumber = prompt('Type in a number');
+           // This if and else is deciding if clickOk is a odd or even number.
+           if (typeNumber  % 2 === 0) {
+
+                alert('This number is even');
+            }else {
+                    alert('This number is odd');
+                }
+           //=========================================================================
+            // This section of the code is creating a if else statement that checks if the typeNumber is greater then zero.
+            if (typeNumber > 0) {
+
+                    alert('This number is positive');
+            }else{
+                    alert('This number is negative');
+            }
+            console.log(typeNumber)
+            //=========================================================================
+            // This portion of the code will alert the user how the number plus one hundred is
+
+            alert('Number plus 100' + (parseInt(typeNumber) + 100));
 
 
+        }
+    }
+    enterNumber()
+    //Bonus
+    // function oddOreven () {
+    //     if (typeNumber > 0) {
+    //
+    //         alert('This number is positive');
+    //     }else{
+    //         alert('This number is negative');
+    //     }
+    //     console.log(typeNumber)
+
+    //}
 })()
