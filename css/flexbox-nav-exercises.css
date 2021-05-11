@@ -1,3 +1,70 @@
+/** {*/
+/*    box-sizing: border-box;*/
+/*}*/
+/*body {*/
+/*    margin: 0;*/
+/*}*/
+/*nav {*/
+/*    background: #c1c1c1;*/
+/*}*/
+/*ul {*/
+/*    list-style: none;*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*    display: flex; !* made unordered list a flex container *!*/
+/*}*/
+/*nav a {*/
+/*    text-decoration: none;*/
+/*    color: black;*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*    display: inline-block; !* inline-block to increase clickable area beyond the text *!*/
+/*    padding: 1em; !* increases clickable area of anchor tags on all sides by 1em *!*/
+/*    font-size: small;*/
+/*}*/
+/*nav a:hover {*/
+/*    background: black;*/
+/*}*/
+/*nav ul li:nth-child(6) {*/
+/*    !**/
+/*        this allows the last flex item to be right justified*/
+/*        by filling remaining space to the left of the flex item with margin*/
+/*    *!*/
+/*    margin-left: auto;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*}*/
+/*!*nav ul li:nth-child(5) {*!*/
+/*!*    !**!*/
+/*!*        this allows the last flex item to be right justified*!*/
+/*!*        by filling remaining space to the left of the flex item with margin*!*/
+/*!*    *!*!*/
+/*!*    margin-center: auto;*!*/
+/*!*    !*justify-content: space-between;*!*!*/
+/*!*    !*align-items: center;*!*!*/
+/*!*}*!*/
+/*nav ul li:nth-child(4) {*/
+/*    !**/
+/*        this allows the last flex item to be right justified*/
+/*        by filling remaining space to the left of the flex item with margin*/
+/*    *!*/
+/*    !*margin-left: auto;*!*/
+/*    !*justify-content: space-between;*!*/
+/*    !*align-items: center;*!*/
+/*    margin-right: auto;*/
+/*}*/
+/*nav ul li:nth-child(5) {*/
+/*    !**/
+/*        this allows the last flex item to be right justified*/
+/*        by filling remaining space to the left of the flex item with margin*/
+/*    *!*/
+/*    margin: auto;*/
+/*    font-size: 3em;*/
+/*    padding: .2em;*/
+/*    font-family: 'Montserrat', sans-serif;*/
+/*    position: absolute;*/
+/*    left: 650px;*/
+/*    top: -;*/
+/*}*/
 * {
     box-sizing: border-box;
 }
@@ -6,6 +73,12 @@ body {
 }
 nav {
     background: #c1c1c1;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    flex-flow: row;
+    padding-bottom: .2em;
+    padding-top: .2em;
 }
 ul {
     list-style: none;
@@ -16,13 +89,12 @@ ul {
 nav a {
     text-decoration: none;
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Work Sans', sans-serif;
     display: inline-block; /* inline-block to increase clickable area beyond the text */
     padding: 1em; /* increases clickable area of anchor tags on all sides by 1em */
-    font-size: small;
 }
 nav a:hover {
-    background: black;
+    background: blue;
 }
 nav ul li:nth-child(6) {
     /*
@@ -30,35 +102,28 @@ nav ul li:nth-child(6) {
         by filling remaining space to the left of the flex item with margin
     */
     margin-left: auto;
-    justify-content: space-between;
-    align-items: center;
-}
-/*nav ul li:nth-child(5) {*/
-/*    !**/
-/*        this allows the last flex item to be right justified*/
-/*        by filling remaining space to the left of the flex item with margin*/
-/*    *!*/
-/*    margin-center: auto;*/
-/*    !*justify-content: space-between;*!*/
-/*    !*align-items: center;*!*/
-/*}*/
-nav ul li:nth-child(4) {
-    /*
-        this allows the last flex item to be right justified
-        by filling remaining space to the left of the flex item with margin
-    */
-    /*margin-left: auto;*/
-    /*justify-content: space-between;*/
-    /*align-items: center;*/
-    margin-right: auto;
 }
 nav ul li:nth-child(5) {
-    /*
-        this allows the last flex item to be right justified
-        by filling remaining space to the left of the flex item with margin
-    */
     margin: auto;
     font-size: 3em;
-    padding: .2em;
+    position: absolute;
+    left: 650px;
+    top: -5px;
     font-family: 'Montserrat', sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
