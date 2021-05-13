@@ -35,9 +35,10 @@
         margin: 0.5rem 0;
     }
     .header-img {
-        display: flex;
-        justify-content: center;
-        align-self: stretch;
+        /*display: flex;*/
+        /*justify-content: center;*/
+        /*align-self: stretch;*/
+
     }
     section {
         padding: 1rem 0;
@@ -64,8 +65,10 @@
         list-style-type: none;
         display: inline-flex;
     }
-    img{
-        width: 100%;
+    .header-img{
+        display: flex;
+        justify-content: center;
+        align-self: stretch;
     }
     li{
         padding: 1rem;
@@ -73,9 +76,11 @@
     .main{
         width: 50%;
         padding-right:1rem ;
+        font-style: italic;
     }
-    .sub-section{
+    .sub-section {
         width: 40%;
+        font-style: italic;
     }
     h2{
         padding: 1rem 0;
@@ -83,20 +88,3 @@
     footer p{
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
