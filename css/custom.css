@@ -3,3 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.h1 {
+    max-resolution: 1rem;
+    margin: 100%;
+}
