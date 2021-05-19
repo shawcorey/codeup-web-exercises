@@ -83,7 +83,7 @@ for (var i = 1; i <= 10 ; i++ ) {
     console.log(i)
 }
 // //Make a For Loop that prints out only odd numbers
-// var evenNumber = ;
+// var oddNumber = ;
 for (var i = 0; i <= 10; i++) {
     if(i % 2 === 1){
         console.log(i)
@@ -100,3 +100,29 @@ for (var i = 1; i <= 10; i++) {
 for (let i = 1; i <= 50; i++) {
     console.log(i)
 }
+//05-18-2021
+//Make a Number Tree starting at one
+//Make a For Loop that increases by line
+
+//
+// function numberTree (= {
+// 50; i++) {
+// //
+// function numberTree (tree) {
+//             for (let i = 0; i > tree; i++) {
+//                 let number = 0;
+//     }
+// }
+// //
+
+function generatePyramid() {
+    let totalNumberofRows = 10;
+    let output = '';
+    for (var i = 1; i <= totalNumberofRows; i++) {
+        let j = i.toString()
+        output += j.repeat(i)
+        output += '\n';
+    }
+console.log(i)
+}
+
