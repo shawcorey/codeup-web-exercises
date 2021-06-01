@@ -215,7 +215,7 @@ function enterNumber() {
     }
     enterNumber()
     //Bonus
-    // function oddOreven () {
+    // function oddOrEven () {
     //     if (typeNumber > 0) {
     //
     //         alert('This number is positive');
@@ -225,4 +225,5 @@ function enterNumber() {
     //     console.log(typeNumber)
 
     //}
+    //
 })()

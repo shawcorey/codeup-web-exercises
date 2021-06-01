@@ -41,7 +41,7 @@ console.log(remainder(9, 4))
 
 // Array Example
 //Reach into the paintbox and retrieve the orange tubeOfPaint with a serialNumber of 7783
-var paintBox = {
+let paintBox = {
     tubesOfPaint: [
         //tube of paint item/ collection of paint in the paintbox.
         {name: "Red", serialNumber: 5678},
@@ -56,11 +56,11 @@ var paintBox = {
     ],
 
 }
-var tubeOfOrangePaint = paintBox.tubesOfPaint[1].serialNumber;
+let tubeOfOrangePaint = paintBox.tubesOfPaint[1].serialNumber;
 console.log(tubeOfOrangePaint)
 
 //
-var tubeOfPaint = paintBox.tubesOfPaint[2];
+let tubeOfPaint = paintBox.tubesOfPaint[2];
 //                                           Bracket Notation                                  Dot Notation
 console.log("Selected Tube Of Paint " + tubeOfPaint["name"] + " with serialnumber of " + tubeOfPaint.serialNumber)
 
@@ -68,9 +68,9 @@ console.log("Selected Tube Of Paint " + tubeOfPaint["name"] + " with serialnumbe
 console.log("Selected Brush is " + paintBox.paintBrushes[2]["type"] + " with bristle count of " + paintBox.paintBrushes[2].bristleCount)
 //For Loop Exmaple
 var paintBrushes = paintBox.paintBrushes;
-for (var i = 0; i < paintBrushes.length; i++) {
+for (let i = 0; i < paintBrushes.length; i++) {
     // This variable references this item in the Array at the specified index. i represents the index
-    var  paintBrush = paintBrushes[i];
+    let  paintBrush = paintBrushes[i];
     console.log("Selected Brush is " + paintBrush["type"] + " with bristle count of " + paintBrush.bristleCount)
 
 
@@ -79,18 +79,18 @@ for (var i = 0; i < paintBrushes.length; i++) {
 //For Loop Examples.
 //Make a For Loop that prints out a number 1-10
 var numberZero = 0;
-for (var i = 1; i <= 10 ; i++ ) {
+for (let i = 1; i <= 10 ; i++ ) {
     console.log(i)
 }
 // //Make a For Loop that prints out only odd numbers
 // var oddNumber = ;
-for (var i = 0; i <= 10; i++) {
+for (let i = 0; i <= 10; i++) {
     if(i % 2 === 1){
         console.log(i)
     }
 }
 //    Make a For Loop that prints out only even numbers
-for (var i = 1; i <= 10; i++) {
+for (let i = 1; i <= 10; i++) {
     if(i % 2 === 0){
         console.log(i)
     }
@@ -116,9 +116,9 @@ for (let i = 1; i <= 50; i++) {
 // //
 
 function generatePyramid() {
-    let totalNumberofRows = 10;
+    let totalNumberOfRows = 10;
     let output = '';
-    for (var i = 1; i <= totalNumberofRows; i++) {
+    for (let i = 1; i <= totalNumberOfRows; i++) {
         let j = i.toString()
         output += j.repeat(i)
         output += '\n';

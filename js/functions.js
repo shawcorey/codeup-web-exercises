@@ -21,7 +21,7 @@
      *
      * console.log 'helloMessage' to check your work
      */
-    var helloMessage = sayHello("Corey");
+    let helloMessage = sayHello("Corey");
     console.log(helloMessage);
     /**
      * TODO:
@@ -29,11 +29,11 @@
      * variable to the 'sayHello' function. You should see the same output in the
      * console.
      */
-    var myName = "Corey";
+    let myName = "Corey";
     console.log(sayHello(myName));
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
-    var random = Math.floor((Math.random() * 3) + 1);
+    let random = Math.floor((Math.random() * 3) + 1);
 
     /**
      * TODO:
