@@ -126,3 +126,5 @@ function generatePyramid() {
 console.log(i)
 }
 
+// 6/03/2021
+
