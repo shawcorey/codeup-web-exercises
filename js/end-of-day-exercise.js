@@ -42,7 +42,7 @@
 //    2. Once the variable is declared; create a hover event for said variable. Will take two inputs
 //    3. Find the function
 
-    var allContainers = $('col-md-3')
+    let allContainers = $('col-md-3')
 
     let hoverIn = function () {
         $().attr('src', "images/jazz-music-rubber-duck.jpg")
