@@ -10,15 +10,15 @@ $('#button').click(function() {
     $("h1").css({"backgroundColor" : "blue"});
 });
 
-$( "p" ).dblclick(function() {
+$("p").dblclick(function() {
     $(this).css("font-size", "18px");
 });
 
 let hoverIn = function () {
-    $(this).css("color","red")
+    $(this).css("color","orange")
 };
 let hoverOut = function () {
-    $(this).css("color","black")
+    $(this).css("color","purple")
 };
 $('p').hover(hoverIn, hoverOut);
 
