@@ -156,6 +156,14 @@
            $(this).css('background-color', '');
          }
       })
+    //  // TODO: Change up the submit button event
+      //  -> Add a new input with an id of #redirect-url
+      //  -> Remove the old click events from #submitBtn
+      //  -> When the user clicks #submitBtn, redirect the page to the value of #redirect-url
+      //  -> HINT: You can either add a new input or change the id of an existing input element to #redirect-url to save time
+      document.getElementById("button").onclick = function () {
+        window.location.href = "https://www.nba.com";
+      }
     </script>
   </body>
 </html>
