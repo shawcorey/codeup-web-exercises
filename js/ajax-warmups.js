@@ -55,7 +55,21 @@ $.ajax('https://jsonplaceholder.typicode.com/posts').done(function (data,status)
 
 
 // failed
-
+//.fail() --> method that will trigger a function to be executed if the ajax request has failed
+$.ajax('https://jsonplaceholder.typicode.com/posts', {
+    type: "POST",
+    data: {
+        title: "hello world",
+        body: "our planet rocks!"
+    }
+}).fail(function (jqHxr, status, error) {
+    // console.log(jqHxr);
+    // console.log(status); // 400 .// failed // statusText
+    // console.log(error);
+    alert("sorry something went wrong")
+})
 // always
-
+$.ajax('https://jsonplaceholder.typicode.com/posts').always(function () {
+    alert("thank you for being here today!")
+})
 //
