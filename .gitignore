@@ -1,1 +1,5 @@
-.idea/
+.idea/*
+*.iml
+.DS_STORE
+node_modules
+js/keys.js/

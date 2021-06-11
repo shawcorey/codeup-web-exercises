@@ -111,6 +111,7 @@ function addMapEvent(marker) {
             .addTo(map);
     });
 }
+//
 function setPopup(textDetails){
     let popup = new mapboxgl.Popup().setHTML(`<p>${textDetails}</p>`)
         .addTo(map);
