@@ -1,4 +1,4 @@
-const token = "pk.eyJ1IjoianNvc2E4OSIsImEiOiJja3Bwbjg5MXgwMGsyMnZtbHlhYzVseHNmIn0.ouScIp2zZhQhLcJ9IM8Q_g"
+const token =
 mapboxgl.accessToken = token;
 let customZoom = 12
 let map = createMap();
